@@ -9,6 +9,10 @@
     <string name="year">Year</string>
     <string name="branch">Branch</string>
     <string name="submit">Submit</string>
+    <string name="phone_no">Phone No</string>
+    <string name="parent_phone_no">Parent Phone No</string>
+    <string name="Submit_1">Submit</string>
+    <string name="cancel">Cancel</string>
     <string-array name="BlockNames">
         <item>Savitri Bhai Phule Block</item>
         <item>Mother Teresa Block</item>
