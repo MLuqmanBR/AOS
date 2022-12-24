@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">AOS</string>
-    <string name="admin_sign_up">Student Details</string>
+    <string name="admin_sign_up">Take Attendance</string>
     <string name="admin_log_in">Student Registration</string>
     <string name="selected_item">Selected item:</string>
     <string name="name">Name</string>
