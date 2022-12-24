@@ -13,6 +13,14 @@
         android:theme="@style/Theme.AOS"
         tools:targetApi="31">
         <activity
+            android:name="StudentRegistration"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+        </activity>
+        <activity
             android:name=".AdminSignup"
             android:exported="false"
             android:label="admin_signup">
