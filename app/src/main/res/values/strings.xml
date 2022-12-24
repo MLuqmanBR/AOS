@@ -8,6 +8,7 @@
     <string name="room_no">Room No</string>
     <string name="year">Year</string>
     <string name="branch">Branch</string>
+    <string name="submit">Submit</string>
     <string-array name="BlockNames">
         <item>Savitri Bhai Phule Block</item>
         <item>Mother Teresa Block</item>
