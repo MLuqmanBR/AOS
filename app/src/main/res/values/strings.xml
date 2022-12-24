@@ -4,6 +4,10 @@
     <string name="admin_log_in">Student Registration</string>
     <string name="selected_item">Selected item:</string>
     <string name="name">Name</string>
+    <string name="block_name">Block Name</string>
+    <string name="room_no">Room No</string>
+    <string name="year">Year</string>
+    <string name="branch">Branch</string>
     <string-array name="BlockNames">
         <item>Savitri Bhai Phule Block</item>
         <item>Mother Teresa Block</item>
