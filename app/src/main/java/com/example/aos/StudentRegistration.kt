@@ -8,9 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 class StudentRegistration : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        try {
             supportActionBar?.hide()
-        }catch (_: NullPointerException){}
 
         setContentView(R.layout.activity_student_registration)
 

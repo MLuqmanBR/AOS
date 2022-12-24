@@ -9,10 +9,8 @@ import android.content.Intent
 class AdminSignup : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        try
-        {
+
             supportActionBar?.hide()
-        }catch (_:NullPointerException){}
 
         setContentView(R.layout.activity_admin_signup)
 
