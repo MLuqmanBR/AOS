@@ -8,20 +8,21 @@ import androidx.appcompat.app.AppCompatActivity
 class StudentRegistration : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-            supportActionBar?.hide()
-
         setContentView(R.layout.activity_student_registration)
+        supportActionBar?.hide()
 
-        val button_3 = findViewById<Button>(R.id.button3)
-        button_3.setOnClickListener({
+        val button3 = findViewById<Button>(R.id.button3)
+        button3.setOnClickListener({
             val intent = Intent(this,Attendance::class.java)
             startActivity(intent)
+            finish()
         })
 
-        val button_4 = findViewById<Button>(R.id.button4)
-        button_4.setOnClickListener({
+        val button4 = findViewById<Button>(R.id.button4)
+        button4.setOnClickListener({
             val intent = Intent(this,AdminSignup::class.java)
             startActivity(intent)
+            finish()
         })
         }
 }

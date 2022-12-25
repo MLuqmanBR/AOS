@@ -15,7 +15,7 @@
         <activity
             android:name=".Attendance"
             android:exported="false"
-            android:label="attendance">
+            android:label="@string/Attendance">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -23,7 +23,11 @@
         <activity
             android:name=".StudentRegistration"
             android:exported="false"
-            android:label="registration">
+            android:label="@string/Registration">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -31,7 +35,7 @@
         <activity
             android:name=".AdminSignup"
             android:exported="false"
-            android:label="admin_signup">
+            android:label="@string/Admin_SUp">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

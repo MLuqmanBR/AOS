@@ -13,6 +13,10 @@
     <string name="parent_phone_no">Parent Phone No</string>
     <string name="Submit_1">Submit</string>
     <string name="cancel">Cancel</string>
+    <string name="Registration">registration</string>
+    <string name="Attendance">attendance</string>
+    <string name="Admin_SUp">admin_signup</string>
+    <string name="please_enter_your_name_here">Please Enter Your Name Here</string>
     <string-array name="BlockNames">
         <item>Savitri Bhai Phule Block</item>
         <item>Mother Teresa Block</item>
