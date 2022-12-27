@@ -14,6 +14,7 @@ class AdminSignup : AppCompatActivity() {
         supportActionBar?.hide()
 
 
+
         setContentView(R.layout.activity_admin_signup)
 
         val button1 = findViewById<Button>(R.id.button1)
