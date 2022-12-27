@@ -15,7 +15,7 @@ class StudentRegistration : AppCompatActivity() {
         button3.setOnClickListener({
             val intent = Intent(this,Attendance::class.java)
             startActivity(intent)
-            finish()
+
         })
 
         val button4 = findViewById<Button>(R.id.button4)

@@ -11,6 +11,7 @@ class AdminSignup : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.hide()
 
 
         setContentView(R.layout.activity_admin_signup)
@@ -19,7 +20,7 @@ class AdminSignup : AppCompatActivity() {
         button1.setOnClickListener({
             val intent = Intent(this,Attendance::class.java)
             startActivity(intent)
-            finish()
+
         })
 
         val buttonnew = findViewById<Button>(R.id.buttonew)
