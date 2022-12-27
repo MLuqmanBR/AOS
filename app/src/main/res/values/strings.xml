@@ -18,6 +18,7 @@
     <string name="Admin_SUp">NFC Student APP</string>
     <string name="please_enter_your_name_here">Please Enter Your Name Here</string>
     <string name="rollnumber">Roll number</string>
+    <string name="today_data">Today Data</string>
     <string-array name="BlockNames">
         <item>Savitri Bhai Phule Block</item>
         <item>Mother Teresa Block</item>

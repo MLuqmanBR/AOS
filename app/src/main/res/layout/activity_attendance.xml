@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Attendance"
-    android:background="@drawable/attendance___outing_system__4_">
+    android:background="@drawable/attendance">
 
     <Button
         android:id="@+id/button1"
@@ -13,6 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="48dp"
         android:text="@string/submit"
+        android:backgroundTint="@color/material_dynamic_neutral99"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
