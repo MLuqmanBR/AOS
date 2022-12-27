@@ -30,7 +30,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/blockname"
+        android:id="@+id/roll_no"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -47,11 +47,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/material_dynamic_neutral99"
-            android:hint="@string/block_name" />
+            android:hint="@string/rollnumber" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/RoomNo"
+        android:id="@+id/blockname"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -61,14 +61,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/blockname"
+        app:layout_constraintTop_toTopOf="@id/roll_no"
         app:layout_constraintVertical_bias="0.13999999">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/material_dynamic_neutral99"
-            android:hint="@string/room_no" />
+            android:hint="@string/block_name" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -82,7 +82,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/RoomNo"
+        app:layout_constraintTop_toTopOf="@id/blockname"
         app:layout_constraintVertical_bias="0.16000003">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -93,7 +93,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/Year"
+        android:id="@+id/PhoneNo"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -110,50 +110,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/material_dynamic_neutral99"
-            android:hint="@string/year" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/Phone_No"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/Year"
-        app:layout_constraintVertical_bias="0.23000002">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/material_dynamic_neutral99"
             android:hint="@string/phone_no" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ParentPh"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/Phone_No"
-        app:layout_constraintVertical_bias="0.3">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/material_dynamic_neutral99"
-            android:hint="@string/parent_phone_no" />
-    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/button3"
@@ -163,7 +122,7 @@
         android:layout_marginTop="48dp"
         android:text="@string/Submit_1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ParentPh" />
+        app:layout_constraintTop_toBottomOf="@id/PhoneNo" />
 
     <Button
         android:id="@+id/button4"
@@ -173,6 +132,5 @@
         android:layout_marginEnd="76dp"
         android:text="@string/cancel"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ParentPh" />
-
+        app:layout_constraintTop_toBottomOf="@id/PhoneNo"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
