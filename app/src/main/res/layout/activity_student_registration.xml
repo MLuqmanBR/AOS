@@ -93,7 +93,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/PhoneNo"
+        android:id="@+id/phoneNo"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -122,7 +122,7 @@
         android:layout_marginTop="48dp"
         android:text="@string/Submit_1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/PhoneNo" />
+        app:layout_constraintTop_toBottomOf="@id/phoneNo" />
 
     <Button
         android:id="@+id/button4"
@@ -132,5 +132,6 @@
         android:layout_marginEnd="76dp"
         android:text="@string/cancel"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/PhoneNo"/>
+        app:layout_constraintTop_toBottomOf="@id/phoneNo"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-<uses-permission android:name="android.permission.NFC"/>
-    <uses-feature android:name="android.hardware.nfc" android:required="true"/>
+
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +18,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AOS"
         tools:targetApi="31">
+        <activity
+            android:name=".Entries"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".Attendance"
             android:exported="false"
@@ -27,10 +39,13 @@
             android:label="@string/Registration">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.nfc.action.NDEF_Discovered"/>
-                <data android:mimeType="text/plain"/>
+                <action android:name="android.nfc.action.NDEF_Discovered" />
+
+                <data android:mimeType="text/plain" />
+
                 <category android:name="android.intent.category.ALTERNATIVE" />
             </intent-filter>
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

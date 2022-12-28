@@ -16,17 +16,17 @@ class AdminSignup : AppCompatActivity() {
         setContentView(R.layout.activity_admin_signup)
 
         val button1 = findViewById<Button>(R.id.button1)
-        button1.setOnClickListener({
-            val intent = Intent(this,Attendance::class.java)
+        button1.setOnClickListener {
+            val intent = Intent(this, Attendance::class.java)
             startActivity(intent)
 
-        })
+        }
 
         val buttonnew = findViewById<Button>(R.id.buttonew)
-        buttonnew.setOnClickListener({
-            val intent = Intent(this,StudentRegistration::class.java)
+        buttonnew.setOnClickListener {
+            val intent = Intent(this, StudentRegistration::class.java)
             startActivity(intent)
             finish()
-        })
+        }
     }
 }
